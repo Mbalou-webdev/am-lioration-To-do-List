@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Ajouter une tâche">
+            <input type="date" id="taskDate">
+            <button id="addTaskButton">Ajouter</button>
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Rechercher une tâche">
+            <button id="searchButton">Rechercher</button>
+            <input type="date" id="searchDate">
+            <button id="searchDateButton">Rechercher par Date</button>
+        </div>
+        <div class="theme-container">
+            <button id="lightThemeButton">Thème Clair</button>
+            <button id="darkThemeButton">Thème Sombre</button>
+        </div>
+        <ul id="taskList"></ul>
+        <button id="clearCompletedButton">Supprimer les tâches terminées</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
